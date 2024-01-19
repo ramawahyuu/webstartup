@@ -357,7 +357,7 @@ body {
 
 /*** About ***/
 .video {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/video-bg.jpg) center center no-repeat;
+    background: linear-gradient(#f0edcfa1, #40a3d846), url(../img/backgorund-yt.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -487,7 +487,7 @@ body {
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/testimonial-bg.jpg) center center no-repeat;
+    background: linear-gradient(#40a3d8dc, #f0edcfc9), url(../img/testimonial-bg.jpg) center center no-repeat;
     background-size: cover;
 }
 
