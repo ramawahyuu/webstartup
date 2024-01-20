@@ -488,7 +488,7 @@ body {
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(#40a3d8dc, #f0edcfc9), url(../img/testimonial-bg.jpg) center center no-repeat;
+    background: linear-gradient(#40a3d8dc, #f0edcfc9), url(../img/testimonial-bg.svg) center center no-repeat;
     background-size: cover;
 }
 
