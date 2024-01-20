@@ -182,6 +182,7 @@ body {
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        right: 50px;
     }
 }
 
@@ -570,4 +571,16 @@ body {
 
 .copyright a:hover {
     color: #FFFFFF !important;
+}
+[class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.3em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
