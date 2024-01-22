@@ -260,7 +260,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: var(--primary);
+    background: #ffd600;
 }
 
 .section-title::after {
@@ -322,8 +322,9 @@ body {
 
 /*** Products ***/
 .product {
-    background: linear-gradient(#40a3d856, #f0edcf2d), url(../img/product-bg.png) left bottom no-repeat;
+    background: linear-gradient(#1a265c, #f0edcf2d), url(../img/product-bg.png) left bottom no-repeat;
     background-size: auto;
+    border-radius: 50px;
 }
 
 
@@ -342,7 +343,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: #40a2d8;
+    background: #1a265c;
     border-radius: 55px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .15);
     font-size: 25px;
@@ -360,6 +361,7 @@ body {
 .video {
     background: linear-gradient(#f0edcfa1, #40a3d846), url(../img/backgorund-yt.png) center center no-repeat;
     background-size: cover;
+    border-radius: 50px;
 }
 
 .btn-play {
@@ -481,15 +483,16 @@ body {
     width: 100px;
     height: 100px;
     border: 20px solid var(--light);
-    background: var(--primary);
+    background: #1a265c;
     border-radius: 50px;
 }
 
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(#40a3d8dc, #f0edcfc9), url(../img/testimonial-bg.svg) center center no-repeat;
+    background: linear-gradient(#1a265c, #f0edcfc9), url(../img/testimonial-bg.svg) center center no-repeat;
     background-size: cover;
+    border-radius: 50px;
 }
 
 .testimonial-item {
@@ -497,7 +500,7 @@ body {
     max-width: 600px;
     text-align: center;
     background: #FFFFFF;
-    border: 30px solid var(--primary);
+    border: 30px solid #1a265c;
 }
 
 .testimonial-item img {
@@ -532,7 +535,7 @@ body {
 
 /*** Footer ***/
 .footer {
-    color: #B0B9AE;
+    color: #1a265c;
 }
 
 .footer .btn.btn-link {
@@ -540,7 +543,7 @@ body {
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #B0B9AE;
+    color: #1a265c;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -566,7 +569,7 @@ body {
 }
 
 .copyright {
-    background: #252525;
+    background: #ffd600;
 }
 
 .copyright a:hover {
@@ -583,4 +586,9 @@ body {
     vertical-align: -0.3em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.display-7 h1{
+    font-size: 20px;
+    color: #ffd600;
 }
